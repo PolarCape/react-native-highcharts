@@ -90,7 +90,15 @@ render() {
         },
         lang: {
             decimalPoint: ',',
-            thousandsSep: '.'
+            thousandsSep: '.',
+            noData: "No data available"
+        },
+        noData: {
+            style: {
+                fontWeight: 'bold',
+                fontSize: '15px',
+                color: '#303030'
+            }
         }
     };
 
