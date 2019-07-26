@@ -5,7 +5,8 @@
   "main": "react-native-highcharts.js",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/TradingPal/react-native-highcharts/issues"
   },
-  "homepage": "https://github.com/TradingPal/react-native-highcharts#readme"
+  "homepage": "https://github.com/TradingPal/react-native-highcharts#readme",
+  "dependencies": {
+    "standard-version": "^6.0.1"
+  }
 }
